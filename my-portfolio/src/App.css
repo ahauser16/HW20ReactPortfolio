@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+.header-color {
+    background: rgb(253,124,34);
+    background: linear-gradient(180deg, rgba(253,124,34,1) 0%, rgba(252,205,165,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid{
+    background: rgb(139,207,216);
+    background: linear-gradient(180deg, rgba(139,207,216,1) 0%, rgba(5,154,168,1) 22%, rgba(6,90,118,1) 37%, rgba(10,59,92,1) 52%, rgba(15,29,68,1) 67%);
+    
+   text-align:center;
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%; 
+   height: 100%;
+    }
+
+.projects-grid{
+    display: flex;
+    background: rgb(6,90,118);
+background: linear-gradient(180deg, rgba(6,90,118,1) 65%, rgba(10,59,92,1) 100%);
+
+text-align:center;
+position: fixed;
+top:0;
+left: 0;
+width: 100%; 
+height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.resume-grid-left{
+    background: rgb(139,207,216);
+    background: linear-gradient(180deg, rgba(139,207,216,1) 0%, rgba(5,154,168,1) 100%);
+
+   text-align:center;
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%; 
+   height: 100%;
+    }
+
+
+.resume-right-col {
+background: rgb(139,207,216);
+background: linear-gradient(180deg, rgba(139,207,216,1) 0%, rgba(5,154,168,1) 100%);
+    color: white;
+padding: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-me-grid {
+    background: rgb(5,154,168);
+    background: linear-gradient(180deg, rgba(5,154,168,1) 0%, rgba(6,90,118,1) 100%);
+
+    text-align:center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.avatar-img{
+    height: 250px;
+    padding-top:5em;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text {
+    background-color: black;
+    opacity: .7;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white
+
+}
+
+.banner-text hr{
+    border-top: 5px dotted #FF7C1F;
+    width: 50%; 
+    margin: auto;
+
+}
+.banner-text p {
+    color: #FF7C1F;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+/* CONTACT PAGE CODE BELOW */
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    background: rgb(10,59,92);
+background: linear-gradient(180deg, rgba(10,59,92,1) 65%, rgba(15,29,68,1) 100%);
+color:
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    margin-bottom: 20 px;
+    color: white;
+ 
+}
+
+.contact-grid h2  {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted whitesmoke;
+    width: 50%;
+    margin: auto;
+}
+.contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+    color: white
+}
+
+.ListItemContent{
+    font-size: 30px;
+    font-family: Anton;
+    color: whitesmoke;
+
+
 }
