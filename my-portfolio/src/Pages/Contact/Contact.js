@@ -24,25 +24,25 @@ class Contact extends Component {
                         <div className='contact-list'>
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ color: 'white', fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className='fa fa-phone-square' aria-hidden='true'/>
                                         (917)-548 9492
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ color: 'white', fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className='fa fa-fax' aria-hidden='true'/>
                                         (917)-548 9492
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ color: 'white', fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className='fa fa-envelope' aria-hidden='true'/>
                                         arthur.hauser@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ color: 'white', fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className='fa fa-skype' aria-hidden='true'/>
                                         my skype ID
                                     </ListItemContent>
