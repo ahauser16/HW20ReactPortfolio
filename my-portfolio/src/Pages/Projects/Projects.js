@@ -16,14 +16,13 @@ class Projects extends Component {
                 <div className="projects-grid">
                     
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover' }}>
-                            React Project #1
+                        <CardTitle style={{ color: 'rgba(253,124,34,1)', height: '176px', background: 'url(https://legacy.theskepticsguide.org/wp-content/uploads/2015/11/2015-11-13-e1447423370214.jpg) center / cover' }}>
+                            An alarm clock that also gives you the weather!
                     </CardTitle>
-                        <CardText>Ipsum blahhhhhhhhhhhhhhhhhhhh Ipsum Ipsum</CardText>
+                        <CardText>Aersymphonia</CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button href='https://github.com/ahauser16/project1_4.0' colored>GitHub</Button>
+                            <Button href='https://ahauser16.github.io/project1_4.0/' colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name='share' />
@@ -31,14 +30,13 @@ class Projects extends Component {
                     </Card>
                     
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover' }}>
-                            React Project #2
+                        <CardTitle style={{ color: 'rgba(253,124,34,1)', height: '176px', background: 'url(https://i.ytimg.com/vi/aG0WdW43yHs/maxresdefault.jpg) center / cover' }}>
+                         Five Day Forecast
                     </CardTitle>
-                        <CardText>Ipsum blahhhhhhhhhhhhhhhhhhhh Ipsum Ipsum</CardText>
+                        <CardText>Work in progress</CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button href='https://github.com/ahauser16/Unit-6---Weather-API-hw/settings' colored>GitHub</Button>
+                            <Button href='https://ahauser16.github.io/Unit-6---Weather-API-hw/' colored>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name='share' />
@@ -46,14 +44,13 @@ class Projects extends Component {
                     </Card>
                     
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover' }}>
-                            React Project #3
+                        <CardTitle style={{ color: 'rgba(253,124,34,1)', height: '176px', background: 'url(https://moddogboutique.com/blog/wp-content/uploads/2014/10/Poodle-howling-at-the-moon-2.jpg) center / cover' }}>
+                           WhereWoof
                     </CardTitle>
-                        <CardText>Ipsum blahhhhhhhhhhhhhhhhhhhh Ipsum Ipsum</CardText>
+                        <CardText>Facebook for dogs...woof!</CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button href='https://github.com/ahauser16/Project3' colored>GitHub</Button>
+                            <Button href='https://project3-wherewoof.herokuapp.com/' colored>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name='share' />
